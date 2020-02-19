@@ -127,7 +127,7 @@ os.remove('temp4.csv')
 df=df5.merge(df6, on="ColumnName2")
 df['ColumnName8_Unrounded']=df['ColumnName3'] /df['ColumnName4']  #If you want to perform some math on columns
 df['ColumnName8']=df['ColumnName8_Unrounded'].round(decimals=2)   #If you want to round off some column value
-del df['Hours Produced per HIL_Unrounded']
+del df['ColumnName8_Unrounded']
 print(df)
 df.to_csv(r'Final_CSV.csv')
 
