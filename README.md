@@ -4,7 +4,9 @@ The code is used to automate and execute  sql query from sql server and store th
 # Install Dependencies
 1. Install dependencies Using 
 ```
-pip install-csv,pandas,openpyxl,os.
+pip install csv
+pip install pandas
+pip install openpyxl
 ```
 2. ODBC driver is needed 
 
