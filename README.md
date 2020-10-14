@@ -2,7 +2,10 @@
 The code is used to automate and execute  sql query from sql server and store them in  csv and xlsx files.
 
 # Install Dependencies
-1. Install dependencies Using pip install-csv,pandas,openpyxl,os.
+1. Install dependencies Using 
+´´´
+pip install-csv,pandas,openpyxl,os.
+´´´
 2. ODBC driver is needed 
 
 
